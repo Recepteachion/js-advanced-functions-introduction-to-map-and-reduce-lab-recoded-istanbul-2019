@@ -2,9 +2,17 @@
 function mapToNegativize(sourceArray){
   return sourceArray.map(el => -el)
 }
-mapToNoChange(sourceArray)
-mapToDouble(sourceArray)
-mapToSquare(sourceArray)
+function mapToNoChange(sourceArray){
+  return sourceArray.map(function(el){
+    return el
+  })
+}
+function mapToDouble(sourceArray){
+  return sourceArray.map(el => el*2)
+}
+function mapToSquare(sourceArray){ 
+  return sourceArray.map({el =>)
+
 
 reduceToTotal(sourceArray, startingPoint)
 reduceToAllTrue(sourceArray)
