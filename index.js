@@ -21,9 +21,9 @@ function reduceToTotal(sourceArray, startingPoint){
 
 
 function reduceToAllTrue(sourceArray){
-  return sourceArray.reduce((el,al) => el&&al)
+  return sourceArray.reduce((el,al) => el==true&&al==true ? true:false)
 }
 
 function reduceToAnyTrue(sourceArray){
-  return sourceArray.reduce(()
+  return sourceArray.reduce((el,al) => el==true||al==true ? true:false)
 }
