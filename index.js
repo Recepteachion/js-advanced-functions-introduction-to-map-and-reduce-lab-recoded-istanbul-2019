@@ -15,9 +15,10 @@ function mapToSquare(sourceArray){
 }
 
 function reduceToTotal(sourceArray, startingPoint){
-  return sourceArray.reduce(function(a,b){
+  let newA= sourceArray.reduce(function(a,b){
     return a+=b;
   },startingPoint)
+  return newA
 }
 
 
