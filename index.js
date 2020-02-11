@@ -14,8 +14,8 @@ function mapToSquare(sourceArray){
   return sourceArray.map(el => el*el )
 }
 
-function reduceToTotal(sourceArray, startingPoint){
-  return sourceArray.reduce(((a,b)=> a+b),startingPoint)
+function reduceToTotal(sourceArray, startingPoint=0){
+  return sourceArray.reduce(((a,b)=> a+b))
   
 }
 
