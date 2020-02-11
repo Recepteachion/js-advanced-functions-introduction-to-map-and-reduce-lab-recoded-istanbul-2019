@@ -31,5 +31,5 @@ function reduceToAllTrue(sourceArray){
 function reduceToAnyTrue(sourceArray){
   return sourceArray.reduce(function(){
     return true
-  },0)
+  })
 }
