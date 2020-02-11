@@ -29,7 +29,7 @@ function reduceToAllTrue(sourceArray){
 }
 
 function reduceToAnyTrue(sourceArray){
-  return sourceArray.reduce(function(){
+  return sourceArray.reduce(function(m,a){
     return true
   })
 }
